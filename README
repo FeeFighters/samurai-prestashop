@@ -1,0 +1,12 @@
+To Install
+
+1. Go to the module section of your Prestashop install and click
+Add A Module From My Computer.
+2. Select the .zip'ed archive of samurai-prestashop and upload it.
+3. You will find a Samurai section within the "Other Modules" heading.
+4. Click "Configure"
+5. Fill in your Samurai account credentials - merchant_key, merchant_password and processor_token. You can get those credentials at http://samurai.feefighters.com.  To sign up for a test account is free and takes 30 seconds. 
+6. Fill in the Title, which is what is to be displayed when the user clicks
+the checkout button.  Typically it is best to fill in "Credit Card".
+7. Fill in the redirect_url, which should be set to "http://yourwebsite/modules/samuraifeefighters/payment.php".  Obviously, replace
+yourwebsite with your actual url.
